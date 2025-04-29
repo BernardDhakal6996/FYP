@@ -1,0 +1,71 @@
+# ----------------------------
+# React Native / Expo
+# ----------------------------
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# macOS
+.DS_Store
+*.orig.*
+*.pem
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local env files
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Keystore and certs
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+
+# ----------------------------
+# Python (FastAPI backend)
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Environment
+venv/
+*.pt
+*.lib
+*.dll
+*.pyd
+__pycache__/
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & Checkpoints
+*.pt
+*.h5
+*.ckpt
+
+# Compiled libs
+*.dll
+*.lib
+*.pyd
+
+# Torch & CV libs
+torch_cpu.dll
+dnnl.lib
+cv2.pyd
